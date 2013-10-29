@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+        <title>data</title>
+        
+        <script>
+                
+                
+                
+                
+                
+                var film={
+                
+                "name": "Euphoric Lampshade",
+                "director":"Asher Mones",
+                "producer":"Regina Spanolo",
+                "year":"2012",
+                "location":"Cape Grove Isle of Man"
+                }
+                
+                var actors={
+                
+					"Karin":"Harriet Anderson",
+                    "David":"Gunnar Björnstrand",
+                    "Martin":"Max von Sydow",
+                    "Minus":"Lars Passgård"
+                                                
+                }
+                                
+                                
+                var acts={
+					"act1":"welcome to the Cape of the isle of man",
+                    "shotList":[
+                        {"shot":"people arrive on isle"},
+                        {"shot":"feast on the flesh of the giant boar"},
+                        {"shot":"play of the great swapping and the lotus blossom "},
+                        {"shot":"aside between Harin and Minus"},
+                        {"shot":"everyone falls asleep in the grassy field"}
+                    ],
+                    "act2":"behind the veil of broken glass",
+                    "shotList2":[
+                        {"shot":"Karin and Minus row out into the distance"},
+                        {"shot":"in the distance there is a clap of thunder"},
+                        {"shot":"who will rescue David from his inner demons"},
+                        {"shot": "Karin and Minus suffer from heat exposure "},
+                        {"shot":"Martin reads by the lamplight"}
+                    ]
+                }
+                
+				
+				document.write("Hello and " + acts.act1 + ", stanger!  Look " + acts.act2 + " as " + acts.shotList2[0].shot + ".  Tell me " + acts.shotList2[2].shot + "!  Will it be " + actors.Martin + ", who chooses to " + acts.shotList[1].shot + " when " + acts.shotList[0].shot + "?  Or will it be " + film.director + ", who will " + acts.shotList[2].shot + " louder than the rest?  We must listen to the " + acts.shotList[3].shot + " for the answer.  Listen as " + acts.shotList[4].shot + " - " + (acts.shotList[4].shot).substring(0,8) + " except for " + (acts.shotList[3].shot).substring(14,29) + ".  Watch as " + acts.shotList2[3].shot + " " + (acts.shotList2[4].shot).substring(13,29) + ".  The year is " + film.year + ".  The " + film.name + " has awoken.");
+				
+				
+				
+				
+				
+                 </script>
+</head>
+<body>
+        
+</body>
+
+</html>
